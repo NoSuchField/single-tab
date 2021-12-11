@@ -1,0 +1,14 @@
+{
+  "name": "Single Tab",
+  "action": {},
+  "manifest_version": 3,
+  "version": "0.1",
+  "description": "Only allow single tab opened for some pages",
+  "permissions": [
+    "webNavigation",
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
